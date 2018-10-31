@@ -1,28 +1,8 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+class App extends React.Component {}
 
+const Flyttkalasbilder = [
+  "https://static.wixstatic.com/media/750df9_f530449de3c44843ae5a1d203c27e7c4~mv2.png/v1/fill/w_361,h_40,al_c,usm_0.66_1.00_0.01/750df9_f530449de3c44843ae5a1d203c27e7c4~mv2.png"
+];
 export default App;
