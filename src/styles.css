@@ -14,6 +14,9 @@
 .Navbar {
   display: flex;
 }
+.Profilepicture {
+  width: 200px;
+}
 a {
   background-color: #54fc6a8f;
   border: solid Black;
